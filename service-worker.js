@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/Bruce-Yu2017/react-image-search/precache-manifest.572a9bba30dfcb191ad486628e3e4d0b.js"
+  "/react_image-search/precache-manifest.200410c1d92cb8aaa293478bf7bd7887.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/Bruce-Yu2017/react-image-search/index.html", {
+workbox.routing.registerNavigationRoute("/react_image-search/index.html", {
   
   blacklist: [/^\/_/,/\/[^\/]+\.[^\/]+$/],
 });
